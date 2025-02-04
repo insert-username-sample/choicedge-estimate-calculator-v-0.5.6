@@ -9,11 +9,6 @@ export default defineConfig({
   root: path.resolve(__dirname, '.'),
   build: {
     outDir: path.resolve(__dirname, 'dist'),
-    rollupOptions: {
-      input: {
-        main: path.resolve(__dirname, 'index.html'),
-      },
-    },
   },
   optimizeDeps: {
     exclude: ['lucide-react'],
